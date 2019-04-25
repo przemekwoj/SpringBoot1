@@ -13,14 +13,16 @@ import com.przemo.RestAPI.entity.parent.User;
 @DiscriminatorValue("Teacher")
 public class Teacher extends User
 {
-	@OneToOne(mappedBy = "teacher",
-            fetch = FetchType.LAZY)
-	private Klasa klasa;
+	
 	
 	@Transient
 	public String getDecriminatorValue() {
 	    return this.getClass().getAnnotation(DiscriminatorValue.class).value();
 	}
+	
+	@OneToOne(mappedBy = "teacher",
+            fetch = FetchType.LAZY)
+	private Klasa klasa;
 
 	public Klasa getKlasa() {
 		return klasa;
@@ -29,6 +31,9 @@ public class Teacher extends User
 	public void setKlasa(Klasa klasa) {
 		this.klasa = klasa;
 	}
+	
+	
+	
 	
 	
 }

@@ -1,11 +1,13 @@
 package com.przemo.RestAPI.entity.parent;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -16,6 +18,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.przemo.RestAPI.entity.user.Student;
 
 @Entity
@@ -30,8 +33,7 @@ public abstract class Subject
     private int subject_id;
 
 	
-	@ManyToMany(cascade= {CascadeType.PERSIST, CascadeType.MERGE,
-			 CascadeType.DETACH, CascadeType.REFRESH})
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
 	@JoinTable(
 	name="students_subjects",
 	joinColumns=@JoinColumn(name="subject_id"),
@@ -39,6 +41,7 @@ public abstract class Subject
 	)
 	private List<Student> studentsList;
 
+	
 	public int getSubject_id() {
 		return subject_id;
 	}
@@ -46,7 +49,13 @@ public abstract class Subject
 	public void setSubject_id(int subject_id) {
 		this.subject_id = subject_id;
 	}
-
+	
+	
+	@Override
+	public String toString() {
+		return "Subject [subject_id=" + subject_id + ", studentsList=" + studentsList + "]";
+	}
+	
 	public List<Student> getStudentsList() {
 		return studentsList;
 	}
@@ -54,7 +63,16 @@ public abstract class Subject
 	public void setStudentsList(List<Student> studentsList) {
 		this.studentsList = studentsList;
 	}
-
+	
+	public void addStudent(Student student)
+	{
+		if(studentsList == null)
+		{
+			studentsList = new ArrayList<Student>();
+		}
+		
+		studentsList.add(student);
+	}
 	
 	
 	

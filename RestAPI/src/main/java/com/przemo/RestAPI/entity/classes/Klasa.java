@@ -22,7 +22,6 @@ import com.przemo.RestAPI.entity.user.Teacher;
 @Table(name = "klasy")
 public class Klasa 
 {
-	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "klasa_id")
@@ -31,14 +30,14 @@ public class Klasa
 	@Column(name = "nameKlasa")
 	private String nameKlasa;
 	
-	/*@OneToMany(mappedBy = "klasa",
-			cascade= {CascadeType.PERSIST, CascadeType.MERGE,
-					CascadeType.DETACH, CascadeType.REFRESH})
-	private List<Student> studentsList;*/
-	
 	@OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private Teacher teacher;
+	
+	@OneToMany(mappedBy = "klasa",
+			cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+					CascadeType.DETACH, CascadeType.REFRESH})
+	private List<Student> studentsList;
 
 	public int getKlasa_id() {
 		return klasa_id;
@@ -56,12 +55,12 @@ public class Klasa
 		this.nameKlasa = nameKlasa;
 	}
 
-/*	public List<Student> getStudentsList() {
-		return studentsList;
+	public Teacher getTeacher() {
+		return teacher;
 	}
 
-	public void setStudentsList(List<Student> studentsList) {
-		this.studentsList = studentsList;
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
 	}
 	
 	public void addStudent(Student student)
@@ -75,13 +74,13 @@ public class Klasa
 		
 		student.setKlasa(this);
 	}
-	*/
-	public Teacher getTeacher() {
-		return teacher;
+
+	public List<Student> getStudentsList() {
+		return studentsList;
 	}
 
-	public void setTeacher(Teacher teacher) {
-		this.teacher = teacher;
+	public void setStudentsList(List<Student> studentsList) {
+		this.studentsList = studentsList;
 	}
 	
 	

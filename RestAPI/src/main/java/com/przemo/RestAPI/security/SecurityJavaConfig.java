@@ -1,4 +1,4 @@
-package com.przemo.RestAPI.security;
+/*package com.przemo.RestAPI.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +31,7 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception 
 	{
-		http.authorizeRequests().antMatchers("/registration","/us","/jsp").permitAll()
+		http.authorizeRequests().antMatchers("/registration","/us","/jsp","students").permitAll()
 					.anyRequest()
 					.authenticated()
 					.and()	
@@ -43,4 +43,4 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
 					
 					
 	}
-}
+}*/

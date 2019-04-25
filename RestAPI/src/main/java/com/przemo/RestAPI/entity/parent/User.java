@@ -11,6 +11,8 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name ="roleType")
@@ -23,15 +25,15 @@ public abstract class User
     private int user_id;
 	
 	@Column(name = "firstname")
-    @NotBlank
+    @NotBlank(message = "firstname name should not be blank")
 	private String firstname;
 	
 	@Column(name = "lastname")
-    @NotBlank
+    @NotBlank(message = "lastname name should not be blank")
 	private String lastname;
 	
 	@Column(name = "password")
-    @NotBlank
+    @NotBlank(message = "password name should not be blank")
 	private String password;
 	
 	public String getPassword() {
@@ -42,7 +44,7 @@ public abstract class User
 		this.password = password;
 	}
 
-
+	
 	public int getUser_id() {
 		return user_id;
 	}
@@ -50,7 +52,8 @@ public abstract class User
 	public void setUser_id(int user_id) {
 		this.user_id = user_id;
 	}
-
+	
+	
 	public String getFirstname() {
 		return firstname;
 	}
@@ -58,13 +61,19 @@ public abstract class User
 	public void setFirstname(String firstname) {
 		this.firstname = firstname;
 	}
-
+	
 	public String getLastname() {
 		return lastname;
 	}
 
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
+	}
+
+	@Override
+	public String toString() {
+		return "User [user_id=" + user_id + ", firstname=" + firstname + ", lastname=" + lastname + ", password="
+				+ password + "]";
 	}
 	
 	

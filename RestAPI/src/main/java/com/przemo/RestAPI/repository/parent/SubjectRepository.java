@@ -1,4 +1,4 @@
-package com.przemo.RestAPI.repository;
+package com.przemo.RestAPI.repository.parent;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
