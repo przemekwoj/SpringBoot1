@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-01T23:47:14</date>
+  <millis>1556747234905</millis>
+  <sequence>186</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>344</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:14</date>
+  <millis>1556747234905</millis>
+  <sequence>187</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>344</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:14</date>
+  <millis>1556747234906</millis>
+  <sequence>188</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>344</thread>
+  <message>User [user_id=0, username=tttttt2, firstname=ttt, lastname=tttt, password=$2a$12$C/.xJS1jMbJhsNZJ0EhxneqV.uIHeU02nvTf8fsAidKpQKXNs1ATq]</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:14</date>
+  <millis>1556747234933</millis>
+  <sequence>189</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>344</thread>
+  <message>successfully added student with id 66</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262112</millis>
+  <sequence>190</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>346</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262113</millis>
+  <sequence>191</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>346</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262114</millis>
+  <sequence>192</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>346</thread>
+  <message>User [user_id=0, username=s, firstname=s, lastname=s, password=$2a$12$xh67eYxh3S0fReU91hjIe.U0YyaXhxt6kDZAYqG175jVYMDB57AQC]</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262216</millis>
+  <sequence>193</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterAddNewStudentThrowException</method>
+  <thread>346</thread>
+  <message>Cant add new Student</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262227</millis>
+  <sequence>194</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>346</thread>
+  <message>Cant delete object</message>
+</record>
+<record>
+  <date>2019-05-01T23:47:42</date>
+  <millis>1556747262227</millis>
+  <sequence>195</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>346</thread>
+  <message>[username is duplicated try another one]</message>
+</record>
+<record>
+  <date>2019-05-01T23:48:02</date>
+  <millis>1556747282088</millis>
+  <sequence>196</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>347</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T23:48:02</date>
+  <millis>1556747282088</millis>
+  <sequence>197</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>347</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T23:48:02</date>
+  <millis>1556747282089</millis>
+  <sequence>198</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>347</thread>
+  <message>User [user_id=0, username=s, firstname=s, lastname=s, password=$2a$12$GMmhU.Vm9ckVEaqXI9vyg.bmRZgWd03.LVNNUlIk8/1S3qikri1R.]</message>
+</record>
+<record>
+  <date>2019-05-01T23:48:02</date>
+  <millis>1556747282175</millis>
+  <sequence>199</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>347</thread>
+  <message>successfully added student with id 68</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345062</millis>
+  <sequence>200</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>345</thread>
+  <message>trying to update Student with id 16 and method</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345062</millis>
+  <sequence>201</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>345</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.updateStudent(int,Student)</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345062</millis>
+  <sequence>202</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>345</thread>
+  <message>User [user_id=54, username=s, firstname=s, lastname=s, password=$2a$12$XTmYR3iVUGBpig/SkiINGev2NKfdALykYUw/QiHaTwrct0nQnXTby]</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345091</millis>
+  <sequence>203</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterUpdatedThrowException</method>
+  <thread>345</thread>
+  <message>Cant update Student</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345092</millis>
+  <sequence>204</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>345</thread>
+  <message>Cant delete object</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:05</date>
+  <millis>1556747345092</millis>
+  <sequence>205</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>345</thread>
+  <message>[username is duplicated try another one]</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:12</date>
+  <millis>1556747352322</millis>
+  <sequence>206</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>346</thread>
+  <message>trying to update Student with id 16 and method</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:12</date>
+  <millis>1556747352322</millis>
+  <sequence>207</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>346</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.updateStudent(int,Student)</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:12</date>
+  <millis>1556747352322</millis>
+  <sequence>208</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeUpdateStudent</method>
+  <thread>346</thread>
+  <message>User [user_id=54, username=smm, firstname=s, lastname=s, password=$2a$12$ecNGNxWkp6iDDJ.Ubbp4suKXXbhC2BlAczqJuQGpnKTvvOHeeBjVC]</message>
+</record>
+<record>
+  <date>2019-05-01T23:49:12</date>
+  <millis>1556747352407</millis>
+  <sequence>209</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyupdateStudent</method>
+  <thread>346</thread>
+  <message>successfully updated student with id 70</message>
+</record>

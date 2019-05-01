@@ -11,7 +11,12 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.validator.constraints.UniqueElements;
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -23,6 +28,11 @@ public abstract class User
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private int user_id;
+	
+	@Column(name = "username",unique = true)
+    @NotBlank(message = "username name should not be blank")
+	@JsonProperty(access = Access.WRITE_ONLY)
+	private String username;
 	
 	@Column(name = "firstname")
     @NotBlank(message = "firstname name should not be blank")
@@ -41,7 +51,10 @@ public abstract class User
 	}
 
 	public void setPassword(String password) {
-		this.password = password;
+		int workload = 12;
+		String salt = BCrypt.gensalt(workload);
+		String hashed_password = BCrypt.hashpw(password, salt);
+		this.password = hashed_password;
 	}
 
 	
@@ -70,11 +83,21 @@ public abstract class User
 		this.lastname = lastname;
 	}
 
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
 	@Override
 	public String toString() {
-		return "User [user_id=" + user_id + ", firstname=" + firstname + ", lastname=" + lastname + ", password="
-				+ password + "]";
+		return "User [user_id=" + user_id + ", username=" + username + ", firstname=" + firstname + ", lastname="
+				+ lastname + ", password=" + password + "]";
 	}
+
+	
 	
 	
 

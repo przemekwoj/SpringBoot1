@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-01T19:46:34</date>
+  <millis>1556732794738</millis>
+  <sequence>181</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>478</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:46:34</date>
+  <millis>1556732794740</millis>
+  <sequence>182</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>478</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:46:34</date>
+  <millis>1556732794742</millis>
+  <sequence>183</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>478</thread>
+  <message>User [user_id=0, username=oi, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:46:34</date>
+  <millis>1556732794793</millis>
+  <sequence>184</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterAddNewStudentThrowException</method>
+  <thread>478</thread>
+  <message>Cant add new Student</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:13</date>
+  <millis>1556732953243</millis>
+  <sequence>195</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>504</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:13</date>
+  <millis>1556732953246</millis>
+  <sequence>196</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>504</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:13</date>
+  <millis>1556732953249</millis>
+  <sequence>197</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>504</thread>
+  <message>User [user_id=0, username=oi, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:13</date>
+  <millis>1556732953305</millis>
+  <sequence>198</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterAddNewStudentThrowException</method>
+  <thread>504</thread>
+  <message>Cant add new Student</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:38</date>
+  <millis>1556732978983</millis>
+  <sequence>200</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>505</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:38</date>
+  <millis>1556732978988</millis>
+  <sequence>201</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>505</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:38</date>
+  <millis>1556732978989</millis>
+  <sequence>202</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>505</thread>
+  <message>User [user_id=0, username=i, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:49:39</date>
+  <millis>1556732979042</millis>
+  <sequence>203</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>505</thread>
+  <message>successfully added student with id 40</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:15</date>
+  <millis>1556733015036</millis>
+  <sequence>204</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>507</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:15</date>
+  <millis>1556733015038</millis>
+  <sequence>205</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>507</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:15</date>
+  <millis>1556733015040</millis>
+  <sequence>206</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>507</thread>
+  <message>User [user_id=0, username=iij, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:15</date>
+  <millis>1556733015417</millis>
+  <sequence>207</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>507</thread>
+  <message>successfully added student with id 41</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:50</date>
+  <millis>1556733050957</millis>
+  <sequence>208</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>509</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:50</date>
+  <millis>1556733050959</millis>
+  <sequence>209</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>509</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:50</date>
+  <millis>1556733050960</millis>
+  <sequence>210</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>509</thread>
+  <message>User [user_id=0, username=iisdj, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:51</date>
+  <millis>1556733051019</millis>
+  <sequence>211</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>509</thread>
+  <message>successfully added student with id 42</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:55</date>
+  <millis>1556733055830</millis>
+  <sequence>212</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>510</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:55</date>
+  <millis>1556733055832</millis>
+  <sequence>213</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>510</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-01T19:50:55</date>
+  <millis>1556733055882</millis>
+  <sequence>214</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>510</thread>
+  <message>successfully used get* method </message>
+</record>
+<record>
+  <date>2019-05-01T19:51:36</date>
+  <millis>1556733096043</millis>
+  <sequence>225</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>530</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-01T19:51:36</date>
+  <millis>1556733096046</millis>
+  <sequence>226</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>530</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-01T19:51:36</date>
+  <millis>1556733096098</millis>
+  <sequence>227</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>530</thread>
+  <message>successfully used get* method </message>
+</record>
+<record>
+  <date>2019-05-01T19:54:44</date>
+  <millis>1556733284859</millis>
+  <sequence>237</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>556</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-01T19:54:44</date>
+  <millis>1556733284865</millis>
+  <sequence>238</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>556</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-01T19:54:44</date>
+  <millis>1556733284920</millis>
+  <sequence>239</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>556</thread>
+  <message>successfully used get* method </message>
+</record>
+<record>
+  <date>2019-05-01T19:54:56</date>
+  <millis>1556733296982</millis>
+  <sequence>240</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>558</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:54:56</date>
+  <millis>1556733296985</millis>
+  <sequence>241</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>558</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:54:56</date>
+  <millis>1556733296986</millis>
+  <sequence>242</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>558</thread>
+  <message>User [user_id=0, username=iisdj, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:54:57</date>
+  <millis>1556733297071</millis>
+  <sequence>243</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterAddNewStudentThrowException</method>
+  <thread>558</thread>
+  <message>Cant add new Student</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:04</date>
+  <millis>1556733304619</millis>
+  <sequence>245</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>559</thread>
+  <message>trying to add new Student with method</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:04</date>
+  <millis>1556733304620</millis>
+  <sequence>246</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>559</thread>
+  <message>Student com.przemo.RestAPI.controllers.StudentController.addStudent(Student)</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:04</date>
+  <millis>1556733304621</millis>
+  <sequence>247</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforeAddNewStudent</method>
+  <thread>559</thread>
+  <message>User [user_id=0, username=iislldj, firstname=Przasdemo2, lastname=Emo, password=5656]</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:04</date>
+  <millis>1556733304698</millis>
+  <sequence>248</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterSuccessfullyAddNewStudent</method>
+  <thread>559</thread>
+  <message>successfully added student with id 44</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:36</date>
+  <millis>1556733336833</millis>
+  <sequence>249</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>validationError</method>
+  <thread>561</thread>
+  <message>Cant add new object</message>
+</record>
+<record>
+  <date>2019-05-01T19:55:36</date>
+  <millis>1556733336834</millis>
+  <sequence>250</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>validationError</method>
+  <thread>561</thread>
+  <message>[username, username name should not be blank]</message>
+</record>

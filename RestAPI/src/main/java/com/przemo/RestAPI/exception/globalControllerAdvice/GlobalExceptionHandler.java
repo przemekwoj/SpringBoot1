@@ -7,10 +7,14 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import javax.validation.ConstraintViolationException;
+
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -23,7 +27,7 @@ import com.przemo.RestAPI.exception.ObjectNotFoundException;
 public class GlobalExceptionHandler
 {
 
-	@ExceptionHandler({ ObjectNotFoundException.class,EmptyResultDataAccessException.class,MethodArgumentTypeMismatchException.class})
+	@ExceptionHandler({ ObjectNotFoundException.class,EmptyResultDataAccessException.class,MethodArgumentTypeMismatchException.class,DataIntegrityViolationException.class})
 	 public  ResponseEntity<ApiError> handleException(Exception ex, WebRequest request) 
 	{
 		HttpHeaders headers = new HttpHeaders();
@@ -44,6 +48,10 @@ public class GlobalExceptionHandler
         	HttpStatus status = HttpStatus.NOT_FOUND;
             return handleBadPathVariable(ex, headers, status, request);
         }
+        else if(ex instanceof DataIntegrityViolationException){
+        	HttpStatus status = HttpStatus.NOT_FOUND;
+            return handleDuplicateValue(ex, headers, status, request);
+        }
         else {
 
             HttpStatus status = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -59,13 +67,23 @@ public class GlobalExceptionHandler
         status = HttpStatus.NOT_FOUND;
         return handleExceptionInternal(ex, new ApiError(errors,status), headers, status, request);
 	}
-
+	
+	private ResponseEntity<ApiError> handleDuplicateValue(Exception ex, HttpHeaders headers, HttpStatus status,
+			WebRequest request) {
+		DataIntegrityViolationException dive = (DataIntegrityViolationException) ex;
+        String error = "username is duplicated try another one" ;
+		List<String> errors = Arrays.asList(error);
+        status = HttpStatus.BAD_REQUEST;
+        return handleExceptionInternal(ex, new ApiError(errors,status), headers, status, request);
+	}
 	private ResponseEntity<ApiError> handleObjectNotFoundException(ObjectNotFoundException ex, HttpHeaders headers,
 			HttpStatus status, WebRequest request) {
 		List<String> errors = Collections.singletonList(ex.getMessage());
         status = HttpStatus.NOT_FOUND;
         return handleExceptionInternal(ex, new ApiError(errors,status), headers, status, request);
 	}
+	
+	
 		
 	private ResponseEntity<ApiError> handleExceptionInternal(Exception ex, ApiError body, HttpHeaders headers,
 			HttpStatus status, WebRequest request) {
