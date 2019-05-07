@@ -40,12 +40,12 @@ public class Student  extends User
 	)
 	private Set<Subject> subjectsList;
 	
-	@ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+	@ManyToOne(targetEntity=Klasa.class, cascade= {CascadeType.PERSIST, CascadeType.MERGE,
 			CascadeType.DETACH, CascadeType.REFRESH})		
 	@JoinColumn(name = "klasa_id")
 	private Klasa klasa;
 	
-	@OneToMany(mappedBy = "student",
+	@OneToMany(mappedBy = "student",targetEntity = Grade.class,
 			cascade= {CascadeType.PERSIST, CascadeType.MERGE,
 					CascadeType.DETACH, CascadeType.REFRESH})
 	private List<Grade> gradesList;

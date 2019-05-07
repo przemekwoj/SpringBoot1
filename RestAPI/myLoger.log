@@ -3919,3 +3919,721 @@
   <thread>27</thread>
   <message>[username is duplicated try another one]</message>
 </record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-04T13:13:22</date>
+  <millis>1556968402410</millis>
+  <sequence>5</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>31</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-04T13:13:22</date>
+  <millis>1556968402413</millis>
+  <sequence>6</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>31</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-04T13:13:22</date>
+  <millis>1556968402467</millis>
+  <sequence>7</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>31</thread>
+  <message>successfully used get* method </message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-05T15:25:23</date>
+  <millis>1557062723059</millis>
+  <sequence>5</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>30</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-05T15:25:23</date>
+  <millis>1557062723062</millis>
+  <sequence>6</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>30</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-05T15:25:23</date>
+  <millis>1557062723111</millis>
+  <sequence>7</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>30</thread>
+  <message>successfully used get* method </message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-06T20:02:46</date>
+  <millis>1557165766531</millis>
+  <sequence>5</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>32</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-06T20:02:46</date>
+  <millis>1557165766536</millis>
+  <sequence>6</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>32</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-06T20:02:46</date>
+  <millis>1557165766587</millis>
+  <sequence>7</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>32</thread>
+  <message>successfully used get* method </message>
+</record>
+<record>
+  <date>2019-05-06T20:14:36</date>
+  <millis>1557166476039</millis>
+  <sequence>16</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>59</thread>
+  <message>Trying to get objects with method :</message>
+</record>
+<record>
+  <date>2019-05-06T20:14:36</date>
+  <millis>1557166476041</millis>
+  <sequence>17</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>getMethodAdvice</method>
+  <thread>59</thread>
+  <message>List com.przemo.RestAPI.controllers.StudentController.getStudents()</message>
+</record>
+<record>
+  <date>2019-05-06T20:14:36</date>
+  <millis>1557166476074</millis>
+  <sequence>18</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterGetMethodSuccessfully</method>
+  <thread>59</thread>
+  <message>successfully used get* method </message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-07T12:03:30</date>
+  <millis>1557223410760</millis>
+  <sequence>5</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>validationError</method>
+  <thread>27</thread>
+  <message>Cant add new object</message>
+</record>
+<record>
+  <date>2019-05-07T12:03:30</date>
+  <millis>1557223410768</millis>
+  <sequence>6</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>validationError</method>
+  <thread>27</thread>
+  <message>[username, username name should not be blank]</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-07T12:27:04</date>
+  <millis>1557224824022</millis>
+  <sequence>5</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforedeleteStudent</method>
+  <thread>27</thread>
+  <message>trying to delete Student with id 73 and method</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:04</date>
+  <millis>1557224824026</millis>
+  <sequence>6</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>INFO</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>beforedeleteStudent</method>
+  <thread>27</thread>
+  <message>void com.przemo.RestAPI.controllers.StudentController.deleteStudent(int)</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:04</date>
+  <millis>1557224824050</millis>
+  <sequence>7</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>afterdeletedThrowException</method>
+  <thread>27</thread>
+  <message>Cant delete Student</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:04</date>
+  <millis>1557224824059</millis>
+  <sequence>8</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>27</thread>
+  <message>Cant delete object</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:04</date>
+  <millis>1557224824059</millis>
+  <sequence>9</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>27</thread>
+  <message>[User '73' not found]</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:41</date>
+  <millis>1557224861455</millis>
+  <sequence>10</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>29</thread>
+  <message>Cant delete object</message>
+</record>
+<record>
+  <date>2019-05-07T12:27:41</date>
+  <millis>1557224861457</millis>
+  <sequence>11</sequence>
+  <logger>com.przemo.RestAPI.aspect.AspectForControllers</logger>
+  <level>WARNING</level>
+  <class>com.przemo.RestAPI.aspect.AspectForControllers</class>
+  <method>badPathVariable</method>
+  <thread>29</thread>
+  <message>[bad path variable :kkk]</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

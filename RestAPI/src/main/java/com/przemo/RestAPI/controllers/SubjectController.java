@@ -16,22 +16,23 @@ import com.przemo.RestAPI.entity.subjects.History;
 import com.przemo.RestAPI.entity.user.Student;
 import com.przemo.RestAPI.exception.ObjectNotFoundException;
 import com.przemo.RestAPI.repository.parent.SubjectRepository;
+import com.przemo.RestAPI.repository.service.SubjectService;
 
 @RestController
 public class SubjectController
 {
 	@Autowired
-	SubjectRepository subjectRepository;
+	private SubjectService subjectService;
 	
 	
 	
 	@GetMapping("/subjects")
 	public List<Subject> getSubject()
 	{
-		List<Subject> subjectsList = subjectRepository.findAll();
+		List<Subject> subjectsList = subjectService.getAllSubjects();
 		for(Subject sub: subjectsList)
 		{
-			List<Subject> subjects = subjectRepository.findAll();
+			List<Subject> subjects = subjectService.getAllSubjects();
 			for(Subject s: subjects)
 			{
 				for(Student st: s.getStudentsList())
@@ -49,7 +50,7 @@ public class SubjectController
 	@GetMapping("/subjects/{id}")
 	Subject getOne(@PathVariable int id) throws ObjectNotFoundException
 	{
-		Subject subject =  subjectRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException(id));
+		Subject subject =  subjectService.getSubjectById(id).orElseThrow(() -> new ObjectNotFoundException(id));
 		subject.getStudentsList().forEach((student) -> {student.setGradesList(null);student.setSubjectsList(null);});
 		return subject;
 	}

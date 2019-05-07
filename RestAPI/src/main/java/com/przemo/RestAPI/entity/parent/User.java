@@ -11,6 +11,7 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.annotations.DiscriminatorOptions;
 import org.hibernate.validator.constraints.UniqueElements;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
@@ -20,7 +21,8 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name ="roleType")
+@DiscriminatorColumn(name ="role_type")
+@DiscriminatorOptions(force = true)
 @Table(name = "users")
 public abstract class User 
 {
